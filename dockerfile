@@ -42,5 +42,3 @@ COPY --from=build-frontend /app/frontend/dist/frontend/browser ./public
 EXPOSE 80
 
 CMD ["node", "index.js"]
-
-
